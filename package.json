@@ -7,11 +7,11 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "nuxt": "3.0.0-rc.1"
+    "nuxt": "3.0.0"
   },
   "dependencies": {
-    "mdi": "^2.2.43",
-    "sass": "^1.51.0",
-    "vuetify": "^3.0.0-beta.1"
+    "@mdi/font": "^7.0.96",
+    "sass": "^1.56.1",
+    "vuetify": "^3.0.1"
   }
 }
