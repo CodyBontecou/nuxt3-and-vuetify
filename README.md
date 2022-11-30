@@ -1,6 +1,6 @@
-# Nuxt 3 Minimal Starter
+# How to use Vuetify with Nuxt 3
 
-Look at the [nuxt 3 documentation](https://nuxt.com) to learn more.
+Tutorial - https://codybontecou.com/how-to-use-vuetify-with-nuxt-3.html
 
 ## Setup
 
