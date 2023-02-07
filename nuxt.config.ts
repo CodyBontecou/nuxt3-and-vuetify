@@ -1,4 +1,7 @@
 import vuetify from 'vite-plugin-vuetify'
+import { createResolver } from '@nuxt/kit'
+
+const { resolve } = createResolver(import.meta.url)
 
 export default defineNuxtConfig({
   css: [
@@ -12,7 +15,7 @@ export default defineNuxtConfig({
     'vite:extendConfig': (config) => {
       config.plugins.push(
         vuetify({
-          styles: { configFile: resolver.resolve('./settings.scss') },
+          styles: { configFile: resolve('./settings.scss') },
         })
       )
     }
